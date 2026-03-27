@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tap-to-breathe-web
+    name: tap-to-breathe-web-static
     runtime: static
     buildCommand: echo "Using prebuilt static files from build/web"
     staticPublishPath: build/web
