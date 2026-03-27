@@ -2,5 +2,4 @@ services:
   - type: web
     name: tap-to-breathe-web
     runtime: static
-    buildCommand: pip install pygbag && pygbag --build .
     staticPublishPath: build/web
