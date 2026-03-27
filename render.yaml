@@ -1,0 +1,4 @@
+staticSites:
+  - name: tap-to-breathe-web
+    buildCommand: pip install pygbag && pygbag --build .
+    publishPath: build/web

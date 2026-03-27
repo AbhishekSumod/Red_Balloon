@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Native Android build artefacts
+.buildozer/
+bin/
+
+# Browser build artefacts
+build/web-cache/
